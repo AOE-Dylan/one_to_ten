@@ -61,6 +61,7 @@ function animalHouse (a,b){
   console.log("Animal count:" + count);
 }
 
+animalHouse(56789658,-69485623874569238475)
 //1 Fish 2 Many Fish (cont.) 
 // create a conditional that checks the count variable 
 // check if the count is greater than 2 
@@ -103,7 +104,7 @@ avengersAssemble(hero);
   // create a conditional 
     // if the variable is true console.log('And then there was light')
     // else console.log('Lights out')
-var lights = true
+var lights = true;
 if (lights = true) {
   console.log("And then there was light")
 }else{
