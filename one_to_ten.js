@@ -84,16 +84,48 @@ var hero = "ironman";
 
 function avengersAssemble(avenger) {
   if (avenger === "ironman") {
-    console.log("I am a billionaire!!!");
+    console.log(avenger + ": I iz a billionaire!!!");
   }else if(avenger === "captain america"){
-    console.log("Bucky, come back!!!");
+    console.log(avenger + ": I haz a shield!!!");
   }else if(avenger === "black widow"){
-    console.log("Zappppppp!!!");
+    console.log(avenger + ": I iz a spy!!!");
   }else if(avenger === "thor"){
-    console.log("For Asgard!!!");
+    console.log(avenger + ": For Asgard!!!");
   }else{
     console.log("Sorry, you are not needed for this mission")
   }
 };
 
 avengersAssemble(hero);
+
+//Lights Out
+  // create a variable named lights and set the value to a boolean 
+  // create a conditional 
+    // if the variable is true console.log('And then there was light')
+    // else console.log('Lights out')
+var lights = true
+if (lights = true) {
+  console.log("And then there was light")
+}else{
+  console.log("Lights out")
+}
+
+//Vroom Vroom
+  // create a variable named carType and set the value to Toyota, Lamborghini, or Tesla as a string.
+  // create a variable named color and set the value to red, blue, or black as a string
+  // create a variable named num and set the value to an integer
+  //create a conditional and check for the following: 
+    // check for a blue Toyota
+    // check for a red Lamborghini
+    // check for a black Tesla 
+  //console log "We have" and your variables. for each condition. 
+    // if none of the conditions are true console log this sentence with your variables,"We don't have any blue Toyotas in stock"
+var carType = "Toyota"
+var color = "red"
+var num = 500
+
+if (carType === "Tesla" && color === "black" || carType === "Lamborghini" && color === "red" ||carType === "Toyota" && color === "blue") {
+  console.log("We have " + num + " " + color + " " + carType + "s")
+} else {
+  console.log("We don't have any " + color + " " + carType + "s in stock...  :(")
+}
